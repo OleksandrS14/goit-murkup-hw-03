@@ -21,6 +21,10 @@ address {
     font-style: normal;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -42,6 +46,16 @@ ul, ol {
     padding-bottom: 24px;
 }
 
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    align-self: center;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -50,6 +64,17 @@ ul, ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
+}
+
+.header-menu-list {
+    display: flex;
+    gap: 40px;
+    margin-right: 332px;
+}
+
+.header-menu-item {
+
 }
 
 .logo-part {
@@ -71,6 +96,11 @@ ul, ol {
 
 .address {
     font-style: normal;
+}
+
+.address-contact-list {
+    display: flex;
+    gap: 40px;
 }
 
 .address-link {
