@@ -42,9 +42,10 @@ ul, ol {
 /*----header----*/
 
 .header {
-    padding: 24px 0;
-    border-bottom: 1px solid #e7e9fc
-
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header-nav {
@@ -94,7 +95,7 @@ ul, ol {
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
-    padding: 24 px 0;
+    padding: 24px 0;
     display: block;
 }
 
