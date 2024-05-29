@@ -231,6 +231,7 @@ ul, ol {
 }
 
 .team-item-img {
+    display: block;
     
 }
 
