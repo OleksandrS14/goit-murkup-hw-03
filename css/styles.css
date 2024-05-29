@@ -76,7 +76,6 @@ ul, ol {
 
 .header-menu-item {
     padding: 24px 0;
-
 }
 
 .logo-part {
@@ -94,8 +93,8 @@ ul, ol {
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
-    padding:24 px 0;
-    display:block;
+    padding: 24 px 0;
+    display: block;
 }
 
 .address {
@@ -242,9 +241,8 @@ ul, ol {
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-item-img {
+.team-item .team-item-img {
     display: block;
-    
 }
 
 .info-container {
